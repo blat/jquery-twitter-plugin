@@ -1,0 +1,43 @@
+/**
+ * Twitter Balloon
+ *
+ * @author      Mickael BLATIERE
+ * @license     http://www.opensource.org/licenses/mit-license.php - Licensed under The MIT License
+ * @link        http://github.com/blat/jquery-twitter-plugin
+ */
+
+#twitter-balloon {
+    font-family: sans-serif;
+}
+
+#twitter-balloon ul {
+    position: relative;
+}
+
+#twitter-balloon li {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:600px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #000;
+    overflow: hidden;
+    height: 24px;
+}
+
+#twitter-balloon li span {
+    color: #fff;
+    white-space: nowrap;
+    position: absolute;
+    font-size: 0.9em;
+    padding: 4px;
+}
+
+#twitter-balloon li span a {
+    color: #fff;
+}
+#twitter-balloon li span a.tag {
+    text-decoration: none;
+}
